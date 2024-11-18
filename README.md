@@ -4,7 +4,6 @@ This repository demonstrates a **CRUD API** built using **Go (Golang)** with **M
 
 The project is structured to separate concerns, making it easier to maintain and scale.
 
----
 
 ## Project Structure
 ```
@@ -19,7 +18,6 @@ pkg/
 
 ```
 
----
 
 ## Features
 + Create, Read, Update, and Delete operations for book records.
@@ -27,14 +25,12 @@ pkg/
 + Seamless integration with MySQL using GORM ORM.
 + Clean and modular code structure.
 
----
 
 ## Prerequisites
 + Go (1.16 or higher)
 + MySQL installed and running
 + VS Code or any IDE for Go development
 
----
 
 ## Setup Instructions
 
@@ -61,7 +57,6 @@ go run cmd/main/main.go
 ```
 The server will run at ```http://localhost:9010```.
 
----
 
 ## API Endpoints
 | Method | Endpoint        | Description                     |
@@ -72,7 +67,6 @@ The server will run at ```http://localhost:9010```.
 | PUT    | `/books/{id}`   | Update a book by ID             |
 | DELETE | `/books/{id}`   | Delete a book by ID             |
 
----
 
 ## Dependencies
 The project uses the following Go modules:
@@ -86,7 +80,6 @@ go get github.com/jinzhu/gorm/dialects/mysql
 go get github.com/gorilla/mux
 ```
 
----
 
 ## Contribution
 Contributions are welcome! Feel free to fork the repo and open a pull request with your changes.
